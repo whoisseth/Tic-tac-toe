@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div id="grid">
+            <!-- use grid -->
+            <div id="turn"> X Turn</div>
+            <table id=inputtable>
+                <tr>
+                    <td id=btn1 class="box "></td>
+                    <td id=btn2 class="box "></td>
+                    <td id=btn3 class="box "></td>
+                </tr>
+                <tr>
+                    <td id=btn4 class="box "></td>
+                    <td id=btn5 class="box "></td>
+                    <td id=btn6 class="box "></td>
+                </tr>
+                <tr>
+                    <td id=btn7 class="box "></td>
+                    <td id=btn8 class="box "></td>
+                    <td id=btn9 class="box "></td>
+                </tr>
+            </table>
+            <button id="reset">Reset</button>
+        </div>
+        <!--pop menue -->
+        <div class="bg-modal ">
+            <div class="modal-content ">
+                <div class="win"> 🏆 X Win </div>
+                <div class="play-again " onclick="playAgain() ">Play Again</div>
+            </div>
+        </div>
+        <!--pop menue End -->
+    </div>
+    <!-- Main div End -->
+
+    <script src="./script.js " defer></script>
+</body>
+
+</html>
